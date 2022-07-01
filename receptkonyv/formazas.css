@@ -1,0 +1,27 @@
+.formazas {
+  width: 500px;
+  padding: 20px;
+}
+
+.formazas h2 {
+  text-align: center;
+}
+
+.formazas form .form-group span {
+  color: red;
+}
+
+.bg-fej {
+  background-position: top;
+  height: 250px;
+  padding-top: 75px;
+  background-image: url('kepek/fejlec.jpg');
+}
+
+.bg-fej h1 {
+  color: black;
+  font-size: 500%;
+  text-transform: uppercase;
+  text-decoration: underline overline;
+  font-weight: bold;
+}

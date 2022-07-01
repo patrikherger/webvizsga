@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Receptfeltöltés</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="formazas.css">
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="display-4">RECEPTFELTÖLTÉS</h1>
+      <hr style="width:40%;text-align:left;margin-left:0;background-color:green;height:2px;border-width:0">
+      <form onsubmit="felvitel()">
+        <div class="form-group">
+          <label for="nev">Étel neve : </label>
+          <input type="text" class="form-control" id="nev" placeholder="Ide írd a recept nevét" required="required">
+        </div>
+        <div class="form-group">
+          <label for="kiszereles">Hozzávalok : </label>
+          <input type="text" class="form-control" id="kiszereles" placeholder="Írd ide a hozzávalokat" required="required">
+        </div>
+        <div class="form-group">
+          <label for="ar">Elkészítés : </label>
+          <input type="text" class="form-control" id="ar" placeholder="Írd ide az elkészítési folyamatot" required="required">
+        </div>
+        <div class="form-group">
+          <label for="kep">kép beillesztése : </label>
+          <input type="file" id="kep" class="btn btn-outline-warning">
+        </div>
+        <hr style="height:2px;border-width:0;background-color:green">
+
+        <button type="submit" name="kuldes" class="btn btn-outline-primary">KÜLDÉS</button>
+        <button type="reset" name="torles" class="btn btn-outline-danger">TÖRLÉS</button>
+      </form>
+    </div>
+
+  </div>
+  <div class="p-5 m-5 text-right">
+    <a href="index.php" class="btn btn-primary">VISSZA</a>
+  </div>
+</div>
+
+</body>
+</html>
